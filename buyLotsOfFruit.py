@@ -41,7 +41,7 @@ def buyLotsOfFruit(orderList):
             print (fruit ,"does not exist") 
             return None
         costperpound = fruitPrices[fruit]
-        totalCost = costperpound *  numPounds
+        totalCost += costperpound * numPounds
     return totalCost
 
 
